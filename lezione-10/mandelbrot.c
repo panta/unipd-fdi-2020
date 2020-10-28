@@ -88,7 +88,7 @@ int mandelbrot(double c_re, double c_im)
 	return n;
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	double c_start_re = -2.0, c_start_im = -1.0, c_end_re = 1.0, c_end_im = 1.0;
 
