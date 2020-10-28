@@ -8,6 +8,34 @@ Ingegneri Meccatronici, anno 2020/2021.
 Il materiale relativo a specifiche lezioni è disponibile nelle relative sotto-directory.
 
 
+## Prerequisiti
+
+Il codice dovrebbe essere compilabile senza problemi con qualunque compilatore C99 o successivo
+(alcuni esempi potrebbero usare a scopo didattico versioni precedenti dello standard C, come C89/C90,
+ma dovrebbero essere comunque utilizzabili anche con compilatori più recenti), su sistemi POSIX-compatibili.
+Alcuni esempi potrebbero essere specifici per linux o unix (bsd, ...).
+
+Si consiglia di utilizzare (eventualmente in una macchina virtuale), sistemi debian o ubuntu.
+
+### Installazione dei pre-requisiti su debian/ubuntu
+
+```bash
+$ sudo apt-get install build-essential git manpages-dev
+```
+
+(`manpages-dev` non è un requisito ma è pacchetto di documentazione consigliato).
+
+### Installazione dei pre-requisiti su macOS
+
+E` possibile installare 
+```bash
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
+
+$ brew update
+$ brew install git
+```
+
+
 ## Come scaricare il repository
 
 Il repository completo è disponibile su [github](https://github.com/panta/unipd-fdi-2020.git).
