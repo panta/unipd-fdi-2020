@@ -1,7 +1,7 @@
 # uncomment to enable debug, comment to disable
 DEBUG ?= y
 
-BINARIES ?= vec3 simple scope ppm
+BINARIES ?= vec3 simple scope ppm mandelbrot
 
 CFLAGS ?= -Wall -Wextra -pedantic -Wstrict-prototypes -Wconversion -Werror
 CC = gcc
@@ -27,6 +27,9 @@ scope: scope.o
 	$(CC) -o $@ $(filter %.o,$^) -lm
 
 ppm: ppm.o
+	$(CC) -o $@ $(filter %.o,$^) -lm
+
+mandelbrot: mandelbrot.o
 	$(CC) -o $@ $(filter %.o,$^) -lm
 
 clean:
