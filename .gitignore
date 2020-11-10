@@ -25,6 +25,7 @@
 *.so
 *.lo
 *.la
+*.dSYM/
 
 # cmake stuff
 CMakeCache.txt
