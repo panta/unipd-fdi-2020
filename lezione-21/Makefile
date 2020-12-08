@@ -1,7 +1,9 @@
 # uncomment to enable debug, comment to disable
 DEBUG ?= y
 
-BINARIES ?= find-person-v1 find-person-v2 find-person-v3 find-person-v4 plot_func
+BINARIES ?= find-person-v1 find-person-v2 find-person-v3 find-person-v4 plot_func \
+	unit-testing-v1-bug unit-testing-v1-ok unit-testing-v1-extended \
+	unit-testing-v2
 
 CFLAGS ?= -std=c99 -Wall -Wextra -pedantic -Wstrict-prototypes -Wconversion -Werror
 CC = gcc
