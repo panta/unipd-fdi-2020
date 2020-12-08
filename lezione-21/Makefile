@@ -1,7 +1,7 @@
 # uncomment to enable debug, comment to disable
 DEBUG ?= y
 
-BINARIES ?= liste-v1 liste-v2 liste-v3 liste-v3-test
+BINARIES ?= plot_func
 
 CFLAGS ?= -std=c99 -Wall -Wextra -pedantic -Wstrict-prototypes -Wconversion -Werror
 CC = gcc
